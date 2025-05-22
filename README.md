@@ -142,7 +142,7 @@ Access the tracer within your handlers to create child spans for specific operat
 import (
 	"net/http"
 	"github.com/arwahdevops/xylium-core/src/xylium"
-	xyliumotel "github.com/arwahdevops/xylium-otel" // Adjust path
+	xyliumotel "github.com/arwahdevops/xylium-otel"
 	"go.opentelemetry.io/otel/attribute"
 )
 
