@@ -44,12 +44,12 @@
 
 1.  Add `xylium-otel` to your project:
     ```bash
-    go get github.com/arwahdevops/xylium-otel # Adjust path if it's different
+    go get github.com/arwahdevops/xylium-otel
     ```
 
 2.  Ensure you have Xylium Core:
     ```bash
-    go get github.com/arwahdevops/xylium-core # Adjust path if it's different
+    go get github.com/arwahdevops/xylium-core
     ```
 
     `xylium-otel` depends on several OpenTelemetry SDK packages, which will be fetched automatically as dependencies.
@@ -70,7 +70,7 @@ import (
 	"time"
 
 	"github.com/arwahdevops/xylium-core/src/xylium"
-	xyliumotel "github.com/arwahdevops/xylium-otel" // Adjust path
+	xyliumotel "github.com/arwahdevops/xylium-otel"
 )
 
 func main() {
